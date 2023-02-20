@@ -8,12 +8,20 @@
         query: { completo: true, lingua: 'pt-br'} }" tag="button" primario >
             Editar
         </router-link>
+        <button voltar @click="irParaInicio" div="btnVoltar" >Voltar</button>
+
    </div>
 </template>
 <script>
 export default {
     props:['id'],
+    methods: {
+         irParaInicio(){
+             this.$router.push({path: "/Usuario",})
+         }       
+    }
 }
+
 </script>
 <style lang="">
     

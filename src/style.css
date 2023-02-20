@@ -67,6 +67,14 @@ button {
     color: #FFF;
     background-color: #2392f0;
 }
+[voltar]{
+    color: #FFF;
+    background-color: #5be34995;
+}
+
+[voltar]:hover{
+    background-color: #3bf023
+}
 
 [primario]:hover {
     background-color: #2392f0aa;
